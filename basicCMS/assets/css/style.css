@@ -1,0 +1,158 @@
+/* style.css */
+
+body{
+	margin: 0;
+}
+
+#wrapper{
+	width: auto;
+}
+
+#header{
+	width: 100%;
+	background-color: silver;
+}
+
+#header-wrapper{
+	width: 1280px;
+	margin: 0 auto;
+	min-height: 100px;
+	background-color: silver;
+	display: block;
+}
+#header-top{
+	background-color: silver;
+}
+#header-bottom{
+	background-color: silver;
+}
+
+#sidebar{
+	width: 15%;
+	background-color: #f2f2f2;
+	min-height: 500px;
+	float: left;
+}
+
+#content-wrapper{
+	width: 1280px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.content-area{
+	min-height: 500px;
+	width: 85%;
+	float: left;
+}
+
+.f-right{
+	float: right;
+}
+.header-logo{
+	display: block;
+	width: 124px;
+	height: 39px;
+	float: left;
+}
+
+.prod-cat-div{
+	min-height: 200px;
+	padding: 5px 10px;
+}
+
+.prod-cat-header{
+	background-color: #f2f2f2;
+	
+}
+
+.prod-item-div{
+	width: 20%;
+	display: inline-block;
+	min-height: 100px;
+	border: 1px solid silver;
+	padding: 5px 16px;
+    margin: 0px 9px;
+}
+
+.prod-img-thumb{
+	display: block;
+	width: 99%;
+}
+
+.clearfix{
+    margin: 0;
+	clear: both;
+}
+
+
+#footer{
+	background-color: #f37540
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: orange;
+	background: white;
+	text-align: center;
+	border: 1px solid black;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+
+}
+
+form {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid black;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
