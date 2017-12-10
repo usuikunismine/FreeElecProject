@@ -1,10 +1,7 @@
 /* style.css */
 
-body
-{
-	font-family: "arial";
-	font-size: 16px;
-	width: 100%;
+body{
+	margin: 0;
 }
 
 #wrapper{
@@ -135,19 +132,12 @@ form {
 }
 
 .btn {
-    background-color: #f37021;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-
-    font-family: "arial";
-    text-align: center;
-    font-size: 16px;
-}
-.btn:hover {
-    opacity: 0.5;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
 }
 
 .error {

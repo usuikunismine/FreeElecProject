@@ -11,7 +11,6 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-		<link rel="icon" type="image/ico" href="icon2.ico" />
 	</head>
 	
 	<body>

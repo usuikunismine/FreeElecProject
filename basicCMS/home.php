@@ -1,8 +1,8 @@
 <?php
-	include_once("connection.php");
+	include('controller.php');
 	
-	if(!(isset($_SESSION["username"]))){
-		HEADER("location:index.php");
+	if(!isset($_SESSION['username'])){
+		header('location: index.php');
 	}
 ?>
 
